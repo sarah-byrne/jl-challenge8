@@ -5,3 +5,8 @@ export type Location = {|
   isPurchasable: boolean,
   rent: number
 |};
+
+export type RewardingLocation = {|
+  ...Location,
+  reward: number
+|};
