@@ -3,5 +3,6 @@
 import type { Location } from "./locationType";
 
 export const freeParking: Location = {
-  name: "Free Parking"
+  name: "Free Parking",
+  isPurchasable: false
 };
