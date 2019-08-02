@@ -2,5 +2,6 @@
 
 export type Location = {|
   name: string,
-  isPurchasable: boolean
+  isPurchasable: boolean,
+  rent: number
 |};
